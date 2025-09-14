@@ -1,0 +1,26 @@
+{
+  "name": "monoj-kumar-das",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "monoj-kumar-das": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "resume",
+    "cli",
+    "portfolio",
+    "linkedin"
+  ],
+  "author": "Monoj Kumar Das<monoj.mkd@hotmail.com>",
+  "license": "MIT",
+  "description": "My resume as an npm package",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "terminal-link": "^5.0.0"
+  }
+}
